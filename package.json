@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,17 @@
   },
   "homepage": "https://github.com/hbselcuk/byhbsNode#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.181.0",
+    "aws-sdk": "^2.1226.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.1",
-    "mongoose": "^6.6.2"
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14"
   }
 }
